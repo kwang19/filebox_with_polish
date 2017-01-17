@@ -2,6 +2,7 @@
 
 body {
   font-family: "Open Sans";
+  background-color: #FBFBFB;
 }
 
 /* My standard vertical spacing classes */
@@ -80,4 +81,39 @@ body {
 
 .margin-below-bottom-xl {
   margin-bottom: 200px;
+}
+.header {
+ color:blue;
+}
+.section-1 {
+  line-height:120%;
+  font-weight:100;
+}
+.section-2 {
+font-size: 20px;
+line-height: 180%;
+font-weight:100;
+}
+.footer-1 {
+  color: gray;
+  font-size: 16px;
+  font-weight:600;
+
+}
+.footer-2{
+line-height: 200%;
+font-size:14px;
+
+}
+.bg-white {
+background-color:white;
+padding-bottom:5px;
+}
+
+.navbar-brand {
+  color:  #007EE5 !important;
+}
+
+ul.nav li a, ul.nav li a:visited {
+    color: #007EE5 !important;
 }
